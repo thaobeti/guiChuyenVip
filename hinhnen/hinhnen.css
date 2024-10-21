@@ -1,0 +1,14 @@
+
+body {
+  background: linear-gradient(
+    to right,
+    #f397fddd,
+    #f88eea
+  ); /* Gradient từ màu hồng sang màu cam */
+}
+@media (max-width: 768px) {
+    body {
+       background:-o-linear-gradient();
+    }
+ }
+ 
